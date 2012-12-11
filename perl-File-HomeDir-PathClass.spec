@@ -58,3 +58,9 @@ rm -rf %buildroot
 %doc Changes LICENSE META.yml README
 %{_mandir}/man3/*
 %perl_vendorlib/*
+
+%changelog
+* Fri Jul 08 2011 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.101.611-1mdv2011
++ Revision: 689332
+- import perl-File-HomeDir-PathClass
+
