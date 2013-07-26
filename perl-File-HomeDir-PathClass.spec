@@ -1,15 +1,15 @@
 %define upstream_name    File-HomeDir-PathClass
-%define upstream_version 1.101611
+%define upstream_version 1.112060
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:    %mkrel 1
+Version:    %perl_convert_version 1.112060
+Release:    1
 
 Summary:    File::HomeDir returning Path::Class objects
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/File/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/File/File-HomeDir-PathClass-1.112060.tar.gz
 
 BuildRequires: perl(Carp)
 BuildRequires: perl(English)
@@ -63,4 +63,5 @@ rm -rf %buildroot
 * Fri Jul 08 2011 Nicolas Lécureuil <nlecureuil@mandriva.com> 1.101.611-1mdv2011
 + Revision: 689332
 - import perl-File-HomeDir-PathClass
+
 
