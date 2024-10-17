@@ -8,7 +8,7 @@ Release:    3
 Summary:    File::HomeDir returning Path::Class objects
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        http://search.cpan.org/dist/%{upstream_name}
+Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/File/File-HomeDir-PathClass-1.112060.tar.gz
 
 BuildRequires: perl(Carp)
