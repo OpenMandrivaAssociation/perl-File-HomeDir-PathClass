@@ -1,14 +1,12 @@
 %define upstream_name    File-HomeDir-PathClass
-%define upstream_version 1.112060
-
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version 1.112060
-Release:    3
+Version:    1.112060
+Release:    4
 
 Summary:    File::HomeDir returning Path::Class objects
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
+Url:        https://metacpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/File/File-HomeDir-PathClass-1.112060.tar.gz
 
 BuildRequires: perl(Carp)
@@ -37,7 +35,7 @@ are supported.
 interfaces.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Build.PL installdirs=vendor
